@@ -126,4 +126,4 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
 
 keep_alive()
 token = os.environ.get("DISCORD_BOT_SECRET")
-client.run(token)
+client.run(NTMzMDM5NzI4OTU4NjM2MDQy.Dx-q_Q.MbslZvl52Iv9c6yFzAqaZX3InVA)
