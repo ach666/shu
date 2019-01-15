@@ -1,4 +1,3 @@
-from keep_alive import keep_alive
 import discord
 import os
 import random
@@ -124,6 +123,5 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
       elif ("hamburger" in message.content.lower()):
         await client.send_file(message.channel,"MUNCHNITO.png")
 
-keep_alive()
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
