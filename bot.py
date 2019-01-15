@@ -12,7 +12,7 @@ async def on_ready():
 async def on_message(message):
     if message.author != client.user:
       if ("nazuna" in message.content.lower()) or ("nito" in message.content.lower()):
-          await client.send_message(message.channel,"NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO NITO")
+          await client.send_message(message.channel,"NITO " * random.randint(14,39)
 
       elif ("pussy" in message.content.lower()):
         if (message.author.bot):return
@@ -33,6 +33,7 @@ async def on_message(message):
         ##await client.send_message(message.channel,"shu")
 
       elif("gay" in message.content.lower()):
+        if (message.author.bot):return
         await client.send_message(message.channel,"僕は誇り高い同性愛者の斎宮宗なのだよ！だからこそ警察を引っ叩くのが趣味で決まってるんだろう")
       
       elif ("dab" in message.content.lower()):
@@ -109,6 +110,7 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
         await client.send_message(message.channel,"well i love nito so much i love him he is the love of my life have you seen nito he is adorable is he not yes nito is the absolute love of my life")
       
       elif ("mika" in message.content.lower()) or ("kagehira" in message.content.lower()):
+        if (message.author.bot):return
         await client.send_message(message.channel,"hmph. i'm sure kagehira is off running around like a lost kitten. there is no need to worry about that idiot, as his girlfriend will go find him soon.")
       
       elif ("koreaboo" in message.content.lower()):
@@ -121,7 +123,7 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
         ##await client.send_message(message.channel,"good for you.")
 
       elif ("hamburger" in message.content.lower()):
-        await client.send_file(message.channel,"MUNCHNITO.png")
+        await client.send_file(message.channel,"BURGER.png")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
