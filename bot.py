@@ -11,7 +11,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author != client.user:
-      if (message.author != message.author.bot):
+      if (message.author.bot == False):
         if ("pussy" in message.content.lower()):
             await client.send_message(message.channel,"pussy")
             
