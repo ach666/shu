@@ -125,5 +125,5 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
       elif ("burger" in message.content.lower()):
         await client.send_file(message.channel,"BURGER.png")
 
-token = os.environ("DISCORD_BOT_SECRET")
+token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
