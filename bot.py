@@ -11,34 +11,42 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author != client.user:
+      if (message.author != message.author.bot):
+        if ("pussy" in message.content.lower()):
+            await client.send_message(message.channel,"pussy")
+            
+        elif ("turks" in message.content.lower()) or ("the turk" in message.content.lower()):
+            await client.send_message(message.channel,"fuck the turks.")
+            
+        elif ("turks" in message.content.lower()) or ("the turk" in message.content.lower()):
+            await client.send_message(message.channel,"fuck the turks.")
+        
+        elif ("fuck you miles" in message.content.lower()):
+            await client.send_message(message.channel,"fuck you miles")
+        
+        elif("gay" in message.content.lower()):
+            await client.send_message(message.channel,"僕は誇り高い同性愛者の斎宮宗なのだよ！だからこそ警察を引っ叩くのが趣味で決まってるんだろう")
+      
+        elif ("dab" in message.content.lower()):
+            await client.send_file(message.channel,"dab.png")
+            
+        elif ("love" in message.content.lower()):
+            await client.send_message(message.channel,"well i love nito so much i love him he is the love of my life have you seen nito he is adorable is he not yes nito is the absolute love of my life")
+      
+        elif ("mika" in message.content.lower()) or ("kagehira" in message.content.lower()):
+            await client.send_message(message.channel,"hmph. i'm sure kagehira is off running around like a lost kitten. there is no need to worry about that idiot, as his girlfriend will go find him soon.")
+            
       if ("nazuna" in message.content.lower()) or ("nito" in message.content.lower()):
           await client.send_message(message.channel,"NITO " * random.randint(54,139))
 
       elif ("pussy" in message.content.lower()):
-        if (message.author.bot):return
         await client.send_message(message.channel,"pussy")
       
       elif ("father???" in message.content.lower()):
         await client.send_message(message.channel,"yes, son.")
 
-      elif ("turks" in message.content.lower()) or ("the turk" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_message(message.channel,"fuck the turks.")
-
-      elif ("fuck you miles" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_message(message.channel,"fuck you miles")
-
       ##elif (":nauseated_face:" in message.content):
         ##await client.send_message(message.channel,"shu")
-
-      elif("gay" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_message(message.channel,"僕は誇り高い同性愛者の斎宮宗なのだよ！だからこそ警察を引っ叩くのが趣味で決まってるんだろう")
-      
-      elif ("dab" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_file(message.channel,"dab.png")
 
       elif ("stan 2wink" in message.content.lower()):
         await client.send_message(message.channel,"i fucking stan 2wink bitch")
@@ -104,23 +112,12 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
 
       elif ("shu" in message.content.lower()):
         await client.send_message(message.channel,"僕")
-
-      elif ("love" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_message(message.channel,"well i love nito so much i love him he is the love of my life have you seen nito he is adorable is he not yes nito is the absolute love of my life")
-      
-      elif ("mika" in message.content.lower()) or ("kagehira" in message.content.lower()):
-        if (message.author.bot):return
-        await client.send_message(message.channel,"hmph. i'm sure kagehira is off running around like a lost kitten. there is no need to worry about that idiot, as his girlfriend will go find him soon.")
       
       elif ("koreaboo" in message.content.lower()):
         await client.send_message(message.channel,"笑 idil is a koreaboo")
 
       elif ("kys" in message.content.lower()) or ("kill yourself" in message.content.lower()) or ("kill urself" in message.content.lower()):
         await client.send_message(message.channel,"kill me yourself you fucking failure of a human. you cannot even create art.")
-      
-      ##elif ("i have" in message.content.lower()):
-        ##await client.send_message(message.channel,"good for you.")
 
       elif ("burger" in message.content.lower()):
         await client.send_file(message.channel,"BURGER.png")
