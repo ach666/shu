@@ -17,9 +17,6 @@ async def on_message(message):
             
         elif ("turks" in message.content.lower()) or ("the turk" in message.content.lower()):
             await client.send_message(message.channel,"fuck the turks.")
-            
-        elif ("turks" in message.content.lower()) or ("the turk" in message.content.lower()):
-            await client.send_message(message.channel,"fuck the turks.")
         
         elif ("fuck you miles" in message.content.lower()):
             await client.send_message(message.channel,"fuck you miles")
