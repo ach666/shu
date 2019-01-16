@@ -14,7 +14,7 @@ async def on_message(message):
     if message.author != client.user:
       
       if ("nazuna" in message.content.lower()) or ("nito" in message.content.lower()):
-          await client.send_message(message.channel,"NITO " * random.randint(14,39))
+          await client.send_message(message.channel,"NITO " * random.randint(54,139))
 
       elif ("pussy" in message.content.lower()):
         if (message.author.bot):return
