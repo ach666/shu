@@ -93,7 +93,7 @@ Saa, hoshi o kette doko made mo ikou
 Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
 
       elif ("send pics" in message.content.lower()):
-        await client.send_file(message.channel,random.choice(["adorablenazu.png","amazingnito.png","beautifulnito.png","brightnito.png","cheerfulnito.png","cutenito.png","deliciousnazu.png","delightfulnito.png","faitonito.png","fuwanito.png","gentlenazu.png","gorgeousnito.png","i-is_that_a_love_letter_for_me.png","i_would_die_for_you_nito.png","incrediblenito.png","lovelynito.png","lovingnito.png","mynazu.png","ohwonderfulnazu.png","rawrnito.png","sillynazu.png","strongnito.png","sweetnazu.png","talentednito.png"]))
+        await client.send_file(message.channel,random.choice(["adorablenazu.png","amazingnito.png","beautifulnito.png","brightnito.png","cheerfulnito.png","cutenito.png","deliciousnazu.png","delightfulnito.png","faitonito.png","fuwanito.png","gentlenazu.png","gorgeousnito.png","i think i'm having a stroke.png","i-is_that_a_love_letter_for_me.png","i_would_die_for_you_nito.png","incrediblenito.png","lovelynito.png","lovingnito.png","mynazu.png","ohwonderfulnazu.png","rawrnito.png","sillynazu.png","strongnito.png","sweetnazu.png","talentednito.png"]))
 
       elif ("sand pics" in message.content.lower()):
         await client.send_file(message.channel,random.choice(["ohnazu.png","please_dont_despair_kawaii_boku_no_koibito.png"]))
