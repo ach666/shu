@@ -41,6 +41,9 @@ async def on_message(message):
       elif ("dab" in message.content.lower()):
         if (message.author.bot):return
         await client.send_file(message.channel,"dab.png")
+      
+      elif ("degredation" in message.content.lower()):
+        await client.send_message(message.channel,"look. it's not weird to enjoy being degredated by nito. he's just so cute.")
 
       elif ("stan 2wink" in message.content.lower()):
         await client.send_message(message.channel,"i fucking stan 2wink bitch")
