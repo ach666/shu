@@ -105,7 +105,7 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
         await client.send_file(message.channel,random.choice(["ohnazu.png","please_dont_despair_kawaii_boku_no_koibito.png"]))
       
       elif ("shunazu" in message.content.lower()):
-        await client.send_file(message.channel,"nito_please_marry_me.png")
+        await client.send_file(message.channel,"nito_please_marry_me.jpg")
 
       elif ("shu" in message.content.lower()):
         await client.send_message(message.channel,"僕")
