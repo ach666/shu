@@ -129,3 +129,4 @@ Asahi ga kimi o torimodosu made wa bokutachi no jikan""")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
+# fuck this shit
