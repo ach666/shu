@@ -19,6 +19,9 @@ async def on_message(message):
       elif ("pussy" in message.content.lower()):
         if (message.author.bot):return
         await client.send_message(message.channel,"pussy")
+       
+      elif ("kona" in message.content.lower()):
+        await client.send_message(message.channel,"artist of the world")
       
       elif ("father???" in message.content.lower()):
         await client.send_message(message.channel,"yes, son.")
