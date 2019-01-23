@@ -25,6 +25,9 @@ async def on_message(message):
       
       elif ("father???" in message.content.lower()):
         await client.send_message(message.channel,"yes, son.")
+        
+      elif ("toes" in message.content.lower()):
+        await client.send_message(message.channel,"please suck my phalanges, nito.")
       
       elif ("let's bake cookies together!" in message.content.lower()):
         await client.send_message(message.channel,"i love cookies. and nito. espeically nito.")
