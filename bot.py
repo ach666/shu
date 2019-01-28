@@ -12,8 +12,10 @@ async def on_ready():
 async def on_message(message):
   
     if message.author != client.user:
+      if ("2013 nazuna" in message.content.lower()) or ("2013 nito" in message.content.lower()):
+        await client.send_file(message.channel,"2013nito.png")
       
-      if ("nazuna" in message.content.lower()) or ("nito" in message.content.lower()):
+      elif ("nazuna" in message.content.lower()) or ("nito" in message.content.lower()):
           await client.send_message(message.channel,"NITO " * random.randint(54,139))
 
       elif ("pussy" in message.content.lower()):
