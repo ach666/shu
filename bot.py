@@ -26,8 +26,7 @@ async def on_message(message):
         await client.send_message(message.channel,"artist of the world")
         
       elif ("richard" in message.content.lower()):
-        await client.send_message(message.channel,"Richard Suckle \
-                                                   *Born*: January 1969")
+        await client.send_message(message.channel,"Richard \"Dick\" Suckle \n **Born**: January 1969")
       
       elif ("nut" in message.content.lower()):
         await client.send_message(message.channel,"The only thing Testiklos loved more than smashing things were fresh nuts. Smashed nuts.")
