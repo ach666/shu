@@ -56,6 +56,11 @@ async def on_message(message):
         if (message.author.bot):return
         await client.send_file(message.channel,"dab.png")
       
+      elif ("salutations" in message.content.lower()):
+        if (message.author.bot):return
+        await client.send_message(message.channel,"salutations teito, my dear confidant. this humble bishop yearns for our next congregation to come upon us in a twinkling. i sorely miss your companionship, and hope you have been well on your journey. have you partaken in healthy meals? doth your slumber rest your physique to its fullest? remember to always remain true to yourself, wherever the wind may take you")
+   
+      
       elif ("degredation" in message.content.lower()) or ("kinky" in message.content.lower()):
         await client.send_message(message.channel,"look. it's not weird to enjoy being degredated by nito. he's just so cute.")
 
